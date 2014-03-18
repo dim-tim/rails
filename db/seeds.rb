@@ -16,4 +16,13 @@ description:
     </p>},
 image_url: 'rails.png',
 price: 39.99)
+
+Product.create(title: 'Programming Ruby 2.0',
+               description:
+                   %{<p>
+        If you need to get working programs delivered fast,
+        you should add Ruby to your toolbox.
+    </p>},
+               image_url: 'rails.png',
+               price: 29.95)
 #...
